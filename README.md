@@ -13,5 +13,5 @@ docker run --name test-postgres -e POSTGRES_USER=myusername -e POSTGRES_PASSWORD
 [https://gorm.io/docs/associations.html](https://gorm.io/docs/associations.html)
 
 # Build and run
-go build
+go build \
 ./postgres-example
